@@ -21,6 +21,38 @@ body {
     } */
 }
 
+/* #region Utilities */
+
+.ourbnb-red {
+  color: $ourbnb-red;
+}
+
+.ourbnb-light-red {
+  color: $ourbnb-light-red;
+}
+
+.ourbnb-dark-red {
+  color: $ourbnb-dark-red;
+}
+
+.ourbnb-black {
+  color: $ourbnb-black;
+}
+
+.ourbnb-soft-black {
+  color: $ourbnb-soft-black;
+}
+
+.ourbnb-white {
+  color: $ourbnb-white;
+}
+
+.ourbnb-grey {
+  color: $ourbnb-grey;
+}
+
+/* #endregion Utilities */
+
 /* #region BRAINTREE */
 
 .submit-button {

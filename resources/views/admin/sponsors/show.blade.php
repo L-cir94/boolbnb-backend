@@ -20,9 +20,9 @@
             </div>
             <div class="col">
                 <div class="card p-3">
-                    <h1 class="text-center">{{ $apartment->title }}</h1>
+                    <h1 class="text-center ourbnb-red">{{ $apartment->title }}</h1>
                     <ul class="list-unstyled">
-                        <li class="py-2"><strong>Caratteristiche appartamento</strong></li>
+                        <li class="py-2"><strong>Caratteristiche dell' appartamento:</strong></li>
                         <li><strong>Stanze:</strong> {{$apartment->rooms}}</li>
                         <li><strong>Bagni:</strong> {{$apartment->bathrooms}}</li>
                         <li><strong>Letti:</strong> {{$apartment->beds}}</li>
@@ -43,19 +43,22 @@
             @forelse ($sponsors as $sponsor)
 
             <div class="col">
-                <div class="card">
+                <div class="card card-sponsor">
                     <div class="card-header">
-                        <h4 class="card-title text-center">{{$sponsor->name}}</h4>
+                        <h4 class="card-title text-center ourbnb-light-red">{{$sponsor->name}}</h4>
                     </div>
                     <div class="card-body">
-                        <p class="card-text">
+                        <p class="card-text text-center">
                             Utilizza questo pacchetto per usufruire di <strong>{{$sponsor->duration}}</strong> ore di vantaggi!
                         </p>
                     </div>
 
                     <div class="card-footer">
-                        <p class="card-text">Prezzo: <strong>{{$sponsor->price}}</strong> €</p>
-                        <a name="" id="" class="btn btn-warning text-primary" href="{{route('admin.payments.create', ['apartment' => $apartment, 'sponsor' => $sponsor])}}" role=" button">Seleziona e vai al pagamento</a>
+                        <p class="card-text text-center">Prezzo: <strong class="price_sponsor text-center">{{$sponsor->price}} €</strong></p>
+
+                        <p class="text-center m-0">
+                            <a name="" id="" class="btn btn-warning text-primary fw-bold" href="{{route('admin.payments.create', ['apartment' => $apartment, 'sponsor' => $sponsor])}}" role=" button">Seleziona e vai al pagamento</a>
+                        </p>
                     </div>
 
                 </div>
