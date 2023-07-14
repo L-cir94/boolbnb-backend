@@ -22,7 +22,8 @@
         <h3>Vuoi davvero applicare lo sponsor <span class="ourbnb-red fw-bold">{{$sponsor->name}}</span> per l'appartamento "<span class="ourbnb-red fw-bold">{{$apartment->title}}</span>" ?</h3>
 
         <div id="dropin-container"></div>
-        <button id="submit-button" type="submit" class="submit-button button--small submit-button--red"><i class="fa-solid fa-credit-card mx-1"></i> Acquista</button>
+        <button id="submit-button" type="submit" class="submit-button button--small submit-button--red" disabled><i class="fa-solid fa-credit-card mx-1"></i> Acquista</button>
+        <a id="cancel-button" class="submit-button button--small submit-button--red" href="{{ URL::previous() }}">Annulla</a>
     </form>
 </div>
 @endsection
