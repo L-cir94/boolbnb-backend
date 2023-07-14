@@ -11,3 +11,7 @@
 .price_sponsor {
     color: $ourbnb-dark-red;
 }
+
+.payments_create {
+    min-height: calc(100vh - 82px - 148px);
+}

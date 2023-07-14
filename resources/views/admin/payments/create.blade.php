@@ -8,7 +8,7 @@
 
 @section('content')
 
-<div class="container">
+<div class="container payments_create">
     @include('admin.partials.session_message')
 
     @include('admin.partials.validation_errors')
@@ -19,7 +19,7 @@
 
         @csrf
 
-        <h3>Vuoi davvero applicare lo sponsor {{$sponsor->name}} per l'appartamento "{{$apartment->title}}"?</h3>
+        <h3>Vuoi davvero applicare lo sponsor <span class="ourbnb-red fw-bold">{{$sponsor->name}}</span> per l'appartamento "<span class="ourbnb-red fw-bold">{{$apartment->title}}</span>" ?</h3>
 
         <div id="dropin-container"></div>
         <button id="submit-button" type="submit" class="submit-button button--small submit-button--red">Acquista</button>

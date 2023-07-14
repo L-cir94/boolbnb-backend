@@ -18,7 +18,7 @@
     <script src="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.1.2-public-preview.15/services/services-web.min.js"></script>
     <!-- BRAINTREE -->
     <script src="https://js.braintreegateway.com/web/dropin/1.38.1/js/dropin.min.js"></script>
-    
+
     @vite(['resources/js/app.js'])
 </head>
 
@@ -75,13 +75,13 @@
                                 <a class="text-light fw-bold text-decoration-none" href="{{ route('admin.dashboard') }}">Dashboard</a>
                             </li>
                             <li class="p-3 rounded-3 mb-3 {{ str_starts_with(Route::currentRouteName(), 'admin.apartments') ? 'bg-danger fst-italic fw-bolder' : 'bg-dark' }}">
-                                <a class="text-light fw-bold text-decoration-none" href="{{ route('admin.apartments.index') }}">Appartamenti</a>
+                                <a class="text-light fw-bold text-decoration-none" href="{{ route('admin.apartments.index') }}">I miei Appartamenti</a>
                             </li>
                             <li class="p-3 rounded-3 mb-3 {{ str_starts_with(Route::currentRouteName(), 'admin.messages') ? 'bg-danger fst-italic fw-bolder' : 'bg-dark' }}">
                                 <a class="text-light fw-bold text-decoration-none" href="{{ route('admin.messages.index') }}">Inbox</a>
                             </li>
                             <li class="p-3 rounded-3 mb-3 {{ str_starts_with(Route::currentRouteName(), 'admin.sponsors') ? 'bg-danger fst-italic fw-bolder' : 'bg-dark' }}">
-                                <a class="text-light fw-bold text-decoration-none" href="{{ route('admin.sponsors.index') }}">Sponsorship</a>
+                                <a class="text-light fw-bold text-decoration-none" href="{{ route('admin.sponsors.index') }}">Sponsorizzazioni</a>
                             </li>
                         </ul>
                     </div>
