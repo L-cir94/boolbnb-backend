@@ -1,0 +1,13 @@
+@use '../root.scss' as *;
+
+.card-sponsor {
+    box-shadow: 0px 2px 4px $ourbnb-light-red;
+}
+
+#conditions {
+    font-size: 0.75rem;
+}
+
+.price_sponsor {
+    color: $ourbnb-dark-red;
+}
