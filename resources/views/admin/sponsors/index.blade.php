@@ -10,10 +10,10 @@
     <p class="pt-4"> La sponsorizzazione permetterà al tuo appartamento di:</p>
     <ul class="pb-5 list-unstyled">
         <li>
-            <i class="fa-regular fa-hand-point-right" style="color: #ff7b7f;"></i> Farlo apparire in Homepage nella sezione “Appartamenti in Evidenza”;
+            <i class="fa-regular fa-hand-point-right fa-beat fa-lg me-2" style="color: #ff7b7f;"></i> Farlo apparire in Homepage nella sezione “Appartamenti in Evidenza”;
         </li>
         <li>
-            <i class="fa-regular fa-hand-point-right" style="color: #ff7b7f;"></i> Nella pagina di ricerca, verrà posizionato sempre prima di un appartamento non
+            <i class="fa-regular fa-hand-point-right fa-beat fa-lg me-2" style="color: #ff7b7f;"></i> Nella pagina di ricerca, verrà posizionato sempre prima di un appartamento non
             sponsorizzato che soddisfa le stesse caratteristiche di ricerca.
         </li>
     </ul>
