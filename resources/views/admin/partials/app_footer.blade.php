@@ -13,7 +13,7 @@
                 <span>la nostra </span>
                 <a href="https://boolean.careers" target="_blank">Academy <i class="fa-duotone fa-code fa-lg"></i></a>
             </li>
-            <li class="animated-li">
+            <li class="">
                 <span>Copyright&copy; 2023 tutti i diritti riservati</span>
             </li>
         </ul>

@@ -23,7 +23,7 @@
 
         <div id="dropin-container"></div>
         <div class="d-flex justify-content-end align-items-center gap-3 flex-wrap">
-            <a id="cancel-button" class="submit-button btn-2" href="{{ URL::previous() }}">Annulla</a>
+            <a id="cancel-button" class="submit-button btn-2" href="{{ route('admin.apartments.index') }}">Annulla</a>
             <button id="submit-button" type="submit" class="submit-button btn-1 btn-1-green" disabled><i class="fa-solid fa-credit-card"></i> Acquista</button>
         </div>
 
