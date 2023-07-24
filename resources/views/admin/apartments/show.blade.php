@@ -23,29 +23,29 @@
             <h1 class="card-title text-center text-uppercase my-3 our-quote fs-2">{{ $apartment->title }}</h1>
             <div class="primary-info d-flex flex-column py-3">
                 <div class="d-flex justify-content-between mb-3">
-                    <div class="badge p-2 btn-1 me-3 d-flex justify-content-center align-items-center gap-2">
+                    <div class="badge p-3 btn-1 me-3 d-flex justify-content-center align-items-center gap-2">
                         <i class="fa-solid fa-house fa-lg"></i>
                         <span class="align-bottom">{{ $apartment->rooms }}</span>
-                        <span class="fw-light">Stanze</span>
+                        <span class="fw-light d-none d-md-flex">Stanze</span>
                     </div>
 
-                    <div class="badge p-2 btn-1 me-3 d-flex justify-content-center align-items-center gap-2">
+                    <div class="badge p-3 btn-1 me-3 d-flex justify-content-center align-items-center gap-2">
                         <i class="fa-solid fa-bed fa-lg"></i>
                         <span class="align-bottom">{{ $apartment->beds }}</span>
-                        <span class="fw-light">Letti</span>
+                        <span class="fw-light d-none d-md-flex">Letti</span>
                     </div>
 
-                    <div class="badge p-2 btn-1 me-3 d-flex justify-content-center align-items-center gap-2">
+                    <div class="badge p-3 btn-1 me-3 d-flex justify-content-center align-items-center gap-2">
                         <i class="fa-solid fa-toilet fa-lg"></i>
                         <span class="align-bottom">{{ $apartment->bathrooms }}</span>
-                        <span class="fw-light">Bagni</span>
+                        <span class="fw-light d-none d-md-flex">Bagni</span>
                     </div>
 
 
-                    <div class="badge p-2 btn-1 me-3 d-flex justify-content-center align-items-center gap-2">
+                    <div class="badge p-3 btn-1 me-3 d-flex justify-content-center align-items-center gap-2">
                         <i class="fa-solid fa-ruler fa-lg"></i>
                         <span class="align-bottom">{{ $apartment->square_meters }}</span>
-                        <span class="fw-light">m²</span>
+                        <span class="fw-light d-none d-md-flex">m²</span>
                     </div>
                 </div>
                 <span><span class="fw-semibold">€{{$apartment->price}}</span> <span class="fw-light">a notte</span></span>
